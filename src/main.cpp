@@ -13,23 +13,6 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License. */
 
-
-/*
-
-SampleClient.cpp
-
-This program connects to a NatNet server, receives a data stream, and writes that data stream
-to an ascii file.  The purpose is to illustrate using the NatNetClient class.
-
-Usage [optional]:
-
-	SampleClient [ServerIP] [LocalIP] [OutputFilename]
-
-	[ServerIP]			IP address of the server (e.g. 192.168.0.107) ( defaults to local machine)
-	[OutputFilename]	Name of points file (pts) to write out.  defaults to Client-output.pts
-
-*/
-
 #include <inttypes.h>
 #include <stdlib.h>
 #include <stdio.h>
